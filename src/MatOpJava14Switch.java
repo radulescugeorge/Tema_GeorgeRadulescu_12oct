@@ -26,13 +26,13 @@ public class MatOpJava14Switch {
                     case '*' -> result=a*b;
                     case '/' -> result=a/b;
                     default -> System.out.println("Unknown operator");
-                };
+                }
                 System.out.println("Result is : " + result);
             }
 
         } catch (Exception e) {
             System.out.println("Check your numbers. You should enter only integers.");
-            System.out.println("Erorr: " +  e);
+            System.out.println("Error: " +  e);
         }
     }
 }

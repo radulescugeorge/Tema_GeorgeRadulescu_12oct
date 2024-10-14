@@ -20,13 +20,13 @@ public class WeekDayJava14Switch {
                     case 5 -> System.out.println("Friday");
                     case 6 -> System.out.println("saturday");
                     case 7 -> System.out.println("Sunday");
-                };
+                }
             } else {
                 System.out.println("Days numbers must be between 1 and 7.");
             }
         } catch (Exception e) {
             System.out.println("Enter only integers, please");
-            System.out.println("Erorr " + e);
+            System.out.println("Error " + e);
         }
     }
 }

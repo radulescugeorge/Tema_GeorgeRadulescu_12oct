@@ -7,6 +7,7 @@ public class EvenForLoop {
         int var1=1;
         Scanner userinput = new Scanner(System.in);
         System.out.print("Enter how many even numbers : ");
+
         try{
             var1 = userinput.nextInt();
             if (var1 < 1){
@@ -18,7 +19,7 @@ public class EvenForLoop {
             }
         } catch (Exception e) {
             System.out.println("Enter only integers, please !");
-            System.out.println("Erorr: " + e);
+            System.out.println("Error: " + e);
         }
     }
 }

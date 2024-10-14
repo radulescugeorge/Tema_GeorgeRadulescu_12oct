@@ -17,15 +17,26 @@ public class TenRandomsArray {
             System.out.println("Pozitia i " + i + " are valoarea " + randomArray[i]);
             i++;
         }
-// sa-l cautam pe max
-        for (int j = 0; j < randomArray.length; j++) {
-            if (randomArray[j] > max) {
-                max = randomArray[j];
+// sa-l cautam pe max cu varianta FOR EACH
+
+        for (int j: randomArray) {
+            if(j > max){
+                max = j;
             }
+
         }
+//        varianta veche FOR
+//        for (int j = 0; j < randomArray.length; j++) {
+//            if (randomArray[j] > max) {
+//                max = randomArray[j];
+//            }
+//        }
         System.out.println("Max is " + max);
 // sa-l cautam pe min
-        int min = randomArray[0]; // declarat aici in loc de inceput langa max pentru a se initializa cu valoare(nu cu zero)
+
+        int min = randomArray[0];
+        // declarat aici in loc de inceput langa max
+        // pentru a se initializa cu valoare(nu cu zero)
 
         for (int k = 0; k < randomArray.length; k++) {
             if (randomArray[k] < min) {

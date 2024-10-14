@@ -24,7 +24,7 @@ public class DivBy2or3 {
 
         } catch (Exception e) {
             System.out.println("Please enter integer numbers only.");
-            System.out.println("Erorr" + e);
+            System.out.println("Error" + e);
         }
     }
 }

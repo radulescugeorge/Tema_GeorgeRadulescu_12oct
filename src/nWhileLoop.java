@@ -20,7 +20,8 @@ public class nWhileLoop {
                 }
             }
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println("Please enter an integer.");
+            System.out.println("Error: " + e);
         }
     }
 }

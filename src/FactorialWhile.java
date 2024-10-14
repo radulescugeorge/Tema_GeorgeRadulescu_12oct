@@ -26,7 +26,7 @@ public class FactorialWhile {
             }
         } catch (Exception e) {
             System.out.println("Enter only integers, please !");
-            System.out.println("Erorr: " + e);
+            System.out.println("Error: " + e);
         }
     }
 }
